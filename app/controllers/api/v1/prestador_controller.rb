@@ -46,6 +46,6 @@ class Api::V1::PrestadorController < Api::V1::ApiController
 
     # Only allow a trusted parameter "white list" through.
     def prestador_params
-      params.require(:prestador).permit( :nome, :latitude, :longitude, :horario, :telefone )
+      params.require(:prestador).permit( :nome, :latitude, :longitude, :horario, :telefone, :tipo )
     end
 end
