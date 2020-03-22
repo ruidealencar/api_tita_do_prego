@@ -1,0 +1,2 @@
+class Prestador < ApplicationRecord
+end
